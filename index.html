@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Latihan Bootsrap</title>
+    <style>
+        #logo1 {
+            padding-left: 30px;
+        }
+
+        .navbar navbar-right {
+            padding-left: 50px;
+        }
+
+        #icon {
+            color: white;
+            margin-left: 30px;
+        }
+
+        nav {
+            padding-left: 3%;
+            padding-right: 10%;
+        }
+
+        .card-title {
+            text-align: center;
+        }
+
+        .container {
+            padding: 10px;
+        }
+
+        .gambar {
+            object-fit: cover;
+            object-position: left;
+        }
+
+        .jarak {
+            width: 90%;
+            height: 700px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark border-bottom border-body"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img id="logo1" src="img/images.png" alt="Logo" width="170" height="50"
+                        class="d-inline-block align-text-top">
+                </a>
+            </div>
+            <div class="navbar navbar-right" id="navbar">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#article">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#article">Article</a></li>
+                            <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#bawah">Copyrate</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon" width="32" height="32" fill="currentColor"
+                            class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Section Hero-->
+    <section id="hero" class="p-3 mb-2 bg-danger-subtle text-center p-5">
+        <h1 class="fw-bold display-4 pb-3"> MARVEL</h1>
+        <p>Marvel Entertainment, LLC (sebelumnya Marvel Enterprises) adalah perusahaan Hiburan Amerika yang didirikan
+            pada Juni 1998 dan berbasis di Kota New York, New York dibentuk oleh penggabungan Marvel Entertainment Group
+            dan ToyBiz. Perusahaan ini sepenuhnya dimiliki anak perusahaan dari The Walt Disney Company, dan terutama
+            dikenal karena buku komik-nya oleh Marvel Comics, serta terjun ke Film, termasuk yang ada di dalam Marvel
+            Cinematic Universe (MCU).
+
+            Pada tahun 2009, The Walt Disney Company mengakuisisi Marvel Entertainment seharga US$4 miliar;[2] sejak
+            saat itu menjadi perseroan terbatas (LLC). Untuk tujuan pelaporan keuangan, Marvel terutama dilaporkan
+            sebagai bagian dari segmen Produk Konsumen sejak reorganisasi Marvel Studios' dari Marvel Entertainment
+            menjadi Walt Disney Studios.[3]
+
+            Selama bertahun-tahun, Marvel Entertainment telah mengadakan beberapa kemitraan dan negosiasi dengan
+            perusahaan lain di berbagai bisnis. Marvel memiliki perjanjian lisensi film dengan Sony Pictures (untuk Film
+            Spider-Man) dan Universal Pictures (hak penolakan pertama untuk mengambil distribusi hak atas future Hulk
+            film yang diproduksi oleh Marvel Studios), dan perjanjian lisensi taman hiburan dengan IMG Worlds of
+            Adventure dan Universal Parks & Resorts (untuk hak khusus karakter Marvel di Islands of Adventure dan
+            Universal Studios Japan).[4] Selain kontrak mereka dengan Universal Parks & Resorts, karakter dan properti
+            Marvel juga telah muncul di Disney Parks.[5]
+        </p>
+    </section>
+
+    <!--Section Artikel-->
+    <section id="article" class="text-center p-5">
+        <h1 class="fw-bold display-4 pb-3"> Artikel</h1>
+        <div class="container">
+
+            <img class="jarak" src="img/7337-2880x1800-desktop-hd-marvel-wallpaper-photo.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h5 class="card-title">The Avanger</h5>
+                <br>
+                <p class="card-text">The Avengers adalah kelompok superhero yang terkenal di dunia Marvel. Kelompok
+                    ini terdiri dari karakter-karakter kuat dengan latar belakang dan kemampuan unik yang disatukan
+                    untuk melindungi dunia dari ancaman besar yang tidak bisa ditangani oleh individu superhero
+                    biasa. Diciptakan oleh Marvel Comics, The Avengers pertama kali muncul dalam komik The Avengers
+                    #1 pada tahun 1963 yang ditulis oleh Stan Lee dan digambar oleh Jack Kirby. Dengan karakter
+                    utama seperti Captain America, Iron Man, Thor, Hulk, Black Widow, dan Hawkeye, kisah The
+                    Avengers telah berkembang dalam komik, animasi, hingga layar lebar dan menjadi fenomena pop
+                    culture yang luar biasa besar.
+
+                    Awal Mula The Avengers
+                    The Avengers terbentuk ketika bumi diancam oleh kekuatan besar yang di luar jangkauan organisasi
+                    biasa, bahkan bagi seorang superhero. Di cerita orisinal komiknya, Avengers dibentuk ketika
+                    Loki, saudara tiri dari Thor, mencoba memanipulasi Hulk untuk menyerang umat manusia. Upaya ini
+                    memicu kerjasama antara Iron Man, Ant-Man, Wasp, Thor, dan Hulk untuk menghentikan Loki. Kelima
+                    pahlawan ini kemudian bersatu dan memutuskan untuk membentuk kelompok yang nantinya akan dikenal
+                    sebagai The Avengers. Moto mereka yang terkenal adalah: "Earth's Mightiest Heroes" atau
+                    "Pahlawan Terhebat di Bumi."
+
+                    Namun, seiring berkembangnya alur cerita dalam komik maupun film, lineup anggota The Avengers
+                    terus berubah. Beberapa anggota asli, seperti Ant-Man dan Wasp, tidak selalu menjadi karakter
+                    utama, sementara Captain America, yang awalnya tidak tergabung, kemudian menjadi pemimpin
+                    kelompok ini setelah ia ditemukan di dalam es dan dibangkitkan kembali dari tidur panjangnya.
+                </p>
+
+            </div>
+
+    </section>
+
+
+    <!--Section Gambar-->
+    <section id="gallery" class="bg-danger-subtle">
+        <h1 class="fw-bold display-4 pb-3" style="text-align: center; margin-top: 20px;">Gallery</h1>
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/ironman.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iron Man</h5>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/hulk.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hulk</h5>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="img/thor.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thor</h5>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/captain america.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Captain America</h5>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="img/hawk eye.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HawkEye</h5>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="img/black widow.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BlackWidow</h5>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-center p-5" id="bawah">
+        © 2024 Marvel
+        <a class="text-body"
+            href="https://www.google.com/search?q=the+avanger&oq=the+avanger&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIPCAEQLhgKGNQCGLEDGIAEMg8IAhAuGAoY1AIYsQMYgAQyCQgDEC4YChiABDIJCAQQLhgKGIAEMgkIBRAuGAoYgAQyCQgGEAAYChiABDIJCAcQABgKGIAEMgkICBAAGAoYgATSAQgxMzY5ajBqOagCALACAQ&sourceid=chrome&ie=UTF-8">The
+            Avanger</a>
+    </footer>
+
+</body>
+
+</html>
